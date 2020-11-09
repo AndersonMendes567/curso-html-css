@@ -1,5 +1,5 @@
 var name = "Anderson";
-alert("Seu nome é " + name);
+console.log("Seu nome é " + name);
 var nascDate = 2000;
 var atualDate = 2020;
 var age = (atualDate - nascDate);
