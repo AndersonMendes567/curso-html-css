@@ -1,23 +1,47 @@
+.icone{
+    border-radius: 50%;
+}
 body
 {
-    font-family: Verdana;
+    margin: 0 auto;
     width: 100%;
+    font-family: Verdana;
     background-color: #fcfcfc;
 }
 
-.photo
-{
+
+.cabecalho{
+    /* margin: 0 auto; */
+}
+.photo{
     border: 2px solid #505050;
     border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
 }
-
-#title, .sub-title, .post-title 
+#sobre{
+    transition: .3s;
+}
+.sub-title{
+    margin-left: 25px;
+}
+#title,  .post-title 
 {
     color: #505050;
+    margin: 25px 0 100px 0;
 }
+.sobre{
+    margin-left: 25px;
+    margin-right: 25px
 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
 #title
 {
+    text-align: center;
     font-size: 40px;
     text-transform: uppercase;
 }
@@ -49,7 +73,9 @@ body
 
 img.post_image
 {
-    width: 100%;
+    width: 45%;
+    height: 40%px;
+
 }
 
 .post_content
@@ -59,10 +85,10 @@ img.post_image
     text-transform: capitalize;
 }
 
-a
+.link
 {
-    color: #505050;
-    text-decoration: line-through;
+    color:#505050 ;
+    text-decoration: none;
 }
 
 .emotions
@@ -74,7 +100,11 @@ a
     margin: 0;
 }
 
-.emotions button
+.nave{
+    width: 100%;
+}
+.but,
+.emotions
 {
     padding: .4rem;
     margin: .4rem;
@@ -87,3 +117,16 @@ a
     cursor: pointer;
     opacity: .8;
 }
+.rodape{
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+    margin-top: 30px;
+}
+.rodape a:hover{
+    color:darkblue;
+    text-decoration: none;
+}
+.lipo{
+    clear: both;
+}
+
